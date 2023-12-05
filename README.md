@@ -4,7 +4,7 @@
 <b>Description/Motivation</b><br>Bad-Bank2 is a follow up to the Bad-Bank application in this Github. It is so named because it does not have security (no login or logout). The next iteration will shortly, as this is my Capstone project for MIT xPro Bootcamp. This project displays my capabilities in building a full stack project, utilizing Bootstrap, React, Express/Node, MongoDB, and Docker.<br><br>
 
 <b>Installation Guidelines</b><br>
-Take the following steps to install dependencies and to run this project on your machine:<br>
+Take the following steps to install dependencies and to run this project on your machine. Make sure Docker is running and that a connection to http://localhost:27017 is running on MongoDB Compass.<br>
 1. Clone the files to your machine.<br>
 2. Open a terminal and type and enter the following commands:
 3. npm init -y
