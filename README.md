@@ -4,7 +4,7 @@
 <b>Description/Motivation</b><br>Bad-Bank2 is a follow up to the Bad-Bank application in this Github. It is so named because it does not have security (no login or logout). The next iteration will shortly, as this is my Capstone project for MIT xPro Bootcamp. This project displays my capabilities in building a full stack project, utilizing Bootstrap, React, Express/Node, MongoDB, and Docker.<br><br>
 
 <b>Installation Guidelines</b><br>
-Take the following steps to install dependencies and to run this project on your machine. Make sure Docker is running and that a connection to http://localhost:27017 is running on MongoDB Compass.<br>
+Take the following steps to install dependencies and to run this project on your machine.<br>
 1. Clone the files to your machine.<br>
 2. Open a terminal and type and enter the following commands:
 3. npm init -y
@@ -14,7 +14,7 @@ Take the following steps to install dependencies and to run this project on your
 7. Run npm install mongodb
 8. Sensitive Firebase configuration keys need to be added to the firebaseConfig variable. Get that data from creating an authentication app in the firebase console and enter the data into the variable in the login.js file.
 9. Get a service account key json file and add the file to your directory.
-10. Run node index.js<br><br>
+10. Make sure Docker is running and that a connection to http://localhost:27017 is running on MongoDB Compass or the code will not work. Then run node index.js<br><br>
 
 <b>Technology Used</b><br>
 Javascript<br>CSS<br>Bootstrap<br>React<br>Express/Node<br>MongoDB<br>Compass<br>Docker<br><br>
