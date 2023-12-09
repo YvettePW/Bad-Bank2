@@ -14,7 +14,7 @@ Take the following steps to install dependencies and to run this project on your
 7. Run npm install mongodb
 8. Sensitive Firebase configuration keys need to be added to the firebaseConfig variable. Get that data from creating an authentication app in the firebase console and enter the data into the variable in the login.js file.
 9. Get a service account key json file and add the file to your directory.
-10. Make sure Docker is running and that a connection to http://localhost:27017 is running on MongoDB Compass or the code will not work. Then run node index.js<br><br>
+10. Make sure Docker is running and that a connection to http://localhost:27017 is running on MongoDB Compass or the code will not work. Then run node index.js and navigate to http://localhost:3000.<br><br>
 
 <b>Technology Used</b><br>
 Javascript<br>CSS<br>Bootstrap<br>React<br>Express/Node<br>MongoDB<br>Compass<br>Docker<br><br>
