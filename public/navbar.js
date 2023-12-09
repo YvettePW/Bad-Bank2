@@ -1,4 +1,23 @@
 function NavBar(){
+
+
+  const [data, setData] = React.useState('');  
+  const [name, setName] = React.useState('');
+
+
+  React.useEffect(() => {
+      
+      // fetch all accounts from API
+      fetch('/account/all')
+          .then(response => response.json())
+          .then(data => {
+              console.log(data);
+              setData(JSON.stringify(data));                
+          });
+
+  }, []);
+ 
+
   return(
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,10 +44,18 @@ function NavBar(){
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#/alldata/">AllData</a>
-          </li>          
+          </li> 
+          
+          
+
+<li>{data.slice(43, 48)}</li>
+<li>{data}</li>
+<li>`{name}`</li>
+          
+                          
         </ul>
       </div>
     </nav>
-
   );
 }
+
