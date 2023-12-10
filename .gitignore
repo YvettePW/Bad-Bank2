@@ -1,2 +1,3 @@
-#Ignore badbank2img.png
+#Ignore node_modules, badbank2img.png
+node_modules
 badbank2img.png
