@@ -46,12 +46,9 @@ function NavBar(){
             <a className="nav-link" href="#/alldata/">AllData</a>
           </li> 
           
-          
-
-<li>{data.slice(43, 48)}</li>
-<li>{data}</li>
-<li>`{name}`</li>
-          
+          <li>
+            <a className="nav-link">Welcome, {data.slice(43, 48)}!</a>
+          </li> 
                           
         </ul>
       </div>

@@ -1,6 +1,6 @@
 function Withdraw(){
   const [show, setShow]     = React.useState(true);
-  const [status, setStatus] = React.useState('');  
+  const [status, setStatus] = React.useState(''); 
 
   return (
     <Card
@@ -66,7 +66,7 @@ function WithdrawForm(props){
       onChange={e => setAmount(e.currentTarget.value)}/><br/>
 
     <button type="submit" 
-      className="btn btn-light" 
+      className="btn btn-light"
       onClick={handle}>
         Withdraw
     </button>
