@@ -28,7 +28,7 @@ REMOVED FOR GITHUB BUT NEEDED FOR CODE TO WORK
   signup.addEventListener('click', e => {
     // TODO: check for real email
     const auth = firebase.auth();
-    const promise = auth.createUserWithEmailAndPassword(email.value.password.value);
+    const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
     promise.catch(e => console.log(e.message));
   });
 
