@@ -1,6 +1,6 @@
 # Bad-Bank2
 ## Bad Bank 2 Project, A Follow Up to Bad Bank
-<b>Screenshot</b><br><img src="badbank2img.png" width='300'/><br><br>
+<b>Screenshot</b><br><img src="badbank2img.png" width='300'/> <img src="badbank2alldata.png" width='300'/><br><br>
 <b>Description/Motivation</b><br>Bad-Bank2 is a follow up to the Bad-Bank application in this Github. It is so named because it does not have security (no login or logout). The next iteration will shortly, as this is my Capstone project for MIT xPro Bootcamp. This project displays my capabilities in building a full stack project, utilizing Bootstrap, React, Express/Node, MongoDB, and Docker.<br><br>
 
 <b>Installation Guidelines</b><br>
