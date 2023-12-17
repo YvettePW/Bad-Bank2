@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <title>Bad Bank</title>
 
-
-
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!-- don't use this in production: -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  
+
   </head>
 
   <body>
@@ -36,7 +41,14 @@
     <script src="home.js" defer type="text/babel"></script>
     <script src="index.js" defer type="text/babel"></script>
 
+    
+    <!-- for firebase -->
+        <script src="../login.js" type="module"></script>
 
 
   </body>
+
+
+
+
 </html>

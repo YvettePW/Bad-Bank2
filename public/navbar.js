@@ -1,12 +1,11 @@
 function NavBar(){
 
-
   const [data, setData] = React.useState('');  
   const [name, setName] = React.useState('');
-
+  
 
   React.useEffect(() => {
-      
+    
       // fetch all accounts from API
       fetch('/account/all')
           .then(response => response.json())
@@ -47,12 +46,14 @@ function NavBar(){
           </li> 
           
           <li>
-            <a className="nav-link">Welcome, {data.slice(43, 48)}!</a>
+            <a className="navbar-brand">Welcome, {data.slice(36, 40)}!</a>
           </li> 
-                          
+         
+            
         </ul>
       </div>
     </nav>
   );
 }
+
 

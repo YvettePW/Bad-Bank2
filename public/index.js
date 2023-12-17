@@ -24,3 +24,4 @@ ReactDOM.render(
   <Spa/>,
   document.getElementById('root')
 );
+
