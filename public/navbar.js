@@ -17,6 +17,7 @@ function NavBar(){
   }, []);
  
 
+
   return(
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -46,7 +47,7 @@ function NavBar(){
           </li> 
           
           <li>
-            <a className="navbar-brand">Welcome, {data.slice(36, 40)}!</a>
+            <a className="navbar-brand">Welcome, {data}!</a>
           </li> 
          
             
@@ -57,3 +58,7 @@ function NavBar(){
 }
 
 
+// {data.slice(36, 40)}
+// {data["name"]}
+// {JSON.stringify(data)}
+// {JSON.stringify(data[''])}

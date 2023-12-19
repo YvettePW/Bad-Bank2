@@ -1,10 +1,10 @@
 # Bad-Bank2
 ## Bad Bank 2 Project, A Follow Up to Bad Bank
 <b>Screenshots</b><br><img src="badbank2landingpage.png" height='180'/><img src="badbank2img.png" height='180'/><img src="badbank2alldata.png" height='180'/><br><br>
-<b>Description/Motivation</b><br>Bad-Bank2 is a follow up to the Bad-Bank application in this Github. It is so named because it does not have security (no login or logout). The next iteration will shortly, as this is my Capstone project for MIT xPro Bootcamp. This project displays my capabilities in building a full stack project, utilizing Bootstrap, React, Express/Node, MongoDB, and Docker.<br><br>
+<b>Description/Motivation</b><br>Bad-Bank2 is a follow up to the Bad-Bank application in this Github. It is so named because it does not have security (no login or logout). This is my Capstone project for MIT xPro Bootcamp. This project displays my capabilities in building a full stack project, utilizing Bootstrap, React, Express/Node, MongoDB, and Docker.<br><br>
 
 <b>Installation Guidelines</b><br>
-Take the following steps to install dependencies and to run this project on your machine. This project was created on a machine with Node.js v18.17.0 installed.<br>
+Take the following steps to install dependencies and to run this project on your machine. This project was created on a machine with Node.js v18.0.0 installed.<br>
 1. Clone the files to your machine.<br>
 2. Open a terminal and type and enter the following commands:
 3. npm init -y
@@ -20,7 +20,7 @@ Take the following steps to install dependencies and to run this project on your
 Javascript<br>CSS<br>Bootstrap<br>React<br>Express/Node<br>MongoDB<br>Compass<br>Docker<br><br>
 
 <b>Features</b><br>
-The BadBank2 project contains a page with an input field whereby someone can enter a name, email, and password. There is a deposit page and a withdraw page as well, with balance that is updated as amounts are entered. A list of all user information is displayed on the All Data page. Additional functionality that would be helpful to a user for future iterations would be to include secure login and log out. This will be included soon.<br><br>
+The BadBank2 project contains a page with an input field whereby someone can enter a name, email, and password. There is a deposit page and a withdraw page as well, with balance that is updated as amounts are entered. A list of all user information is displayed on the All Data page. Additional functionality that would be helpful to a user for future iterations would be to include secure login and log out.<br><br>
 
 <b>MIT License</b>
 

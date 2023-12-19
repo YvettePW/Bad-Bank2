@@ -8,7 +8,7 @@ function Balance(){
       header="Balance"
       status={status}
       body={show ?
-        <BalanceForm setShow={setShow} setStatus={setStatus}/> :
+        <BalanceForm setShow={setShow} setStatus={setStatus}/> : 
         <BalanceMsg setShow={setShow} setStatus={setStatus}/>}
     />
   )
