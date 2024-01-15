@@ -1,13 +1,15 @@
 {
-  "name": "littledb",
+  "name": "badbank2",
   "version": "1.0.0",
   "description": "lowdb sample for 1.125",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo '1. Go to the public folder.' && echo '2. Manually upload files to AWS S3.'",
+    "deploy": "echo 'Manual steps needed after running npm run deploy'"
   },
-  "author": "abel@mit.edu",
+  "author": "ywatson2008@yahoo.com",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.2",

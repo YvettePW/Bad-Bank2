@@ -47,7 +47,7 @@ function NavBar(){
           </li> 
           
           <li>
-            <a className="navbar-brand">Welcome, {data}!</a>
+            <a className="navbar-brand">Welcome, {data.slice(36, 40)}!</a>
           </li> 
          
             
