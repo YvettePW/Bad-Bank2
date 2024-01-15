@@ -1,8 +1,2 @@
 #Ignore the following files:
-node_modules
-badbank2alldata.png
-badbank2img.png
-badbank2landingpage.png
 .env
-login.js
-serviceAccountKey.json
