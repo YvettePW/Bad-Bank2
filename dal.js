@@ -7,19 +7,19 @@ MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
     console.log("Connected successfully to db server");
 
     // connect to myproject database
-    db = client.db('myproject');
+    db = client.db("yvetteProject");
 });
 
 // create user account using the collection.insertOne function
 function create(name, email, password) {
     // TODO: populate this function based off the video
     return new Promise((resolve, reject) => {
-        const collection = db.collection('users');
+        const collection = db.collection("users");
         const doc = {name, email, password, balance: 0};
         collection.insertOne(doc, {w:1}, function(err, result) {
             err ? reject(err) : resolve(doc);
         });
-    })
+    });
 }
 
 // find user account 
